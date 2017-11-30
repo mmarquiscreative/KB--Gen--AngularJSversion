@@ -1,0 +1,137 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: .25rem;
+}
+
+*:focus{
+    outline:none;
+}
+
+.hidden {
+    display: none;
+}
+
+h3 {
+    color: #4dbc8e;
+    margin-top: 1rem;
+}
+
+hr{
+    outline-style: none;
+    border: .5px solid #ffd299;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+     color: #4dbc8e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+/*select {
+    -webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}*/
+
+
+textarea, input[type="number"]{
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+
+select{
+    color: #f8f8f8;
+}
+button, textarea, input, option {
+    padding: .5rem;
+}
+
+select, button, input[type="number"] {
+    height: 2rem;
+    width: 10rem;
+    
+}
+
+
+button{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4dbc8e;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #31775a;
+}
+
+button:hover{
+    background-color: #55d19d;
+}
+
+button:active {
+    background-color: #4dbc8e;
+    border: none;
+    border-top: 2px solid #31775a;
+}
+#addNewCallout{
+    background-color: #ffb550;
+    border-bottom: 3px solid #d68a31;
+}
+
+#addNewCallout:active{
+border: none;
+    border-top: 2px solid #d68a31;
+}
+#addNewCallout:hover{
+    background-color: #ffc272;
+    border-bottom: 3px solid #d68a31;
+}
+
+
+button:focus{
+    outline: none;
+}
+
+
+input + img {
+    vertical-align: middle;
+    margin-top: .5rem;
+    margin-bottom: .0rem;
+    margin-left: .5rem;
+    margin-right: .25rem;
+}
+
+input[type=checkbox]{
+    font-size: x-large;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+textarea{
+    width: 96%;
+}
+
+#overviewBlock, #resourcesBlock{
+    vertical-align: top;
+    display: inline-block;
+}
+
+#overviewBlock{
+    width: 61%;
+}
+
+#resourcesBlock{
+    width: 35%;
+}
+#HTMLBlock, #saveBlock, #loadBlock{
+    display: inline-block;
+    width: 28%;
+}
+#saveBlock {
+    margin: 0rem 2rem;
+}

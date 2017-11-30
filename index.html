@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KB HTML Generator</title>
+  <link type="text/css" rel="stylesheet" href="main.css">
+   
+</head>
+
+<body>
+<div id="helpPopup">
+    <h3>Some Help Title<span id="deleteXhelp">✕</span></h3>
+    <p>Some help some help some help some help.</p>
+    <img src="images/OverviewArea.png">
+</div>
+<div id="background">
+<h4 class="header">1. Overview Section</h4>
+<div class="cardBG">
+<div id="overviewBlock">
+<h3 class="kbGen">General KB Post Overview</h3>
+<span class="toolTip">&nbsp;&nbsp;?&nbsp;&nbsp;</span>
+<div class="toolTipBox"><p> Say what???!!!</p>
+<img src="Icons/icon_KB_0000_HTML-5-logo.png"></div>
+<textarea class="inputNode value" rows="2" cols="99" id="genOverviewHeader" placeholder="General KB Post Overview Header"></textarea>
+ <textarea class="inputNode value" rows="11" cols="99" id="genOverviewBody" placeholder="General KB Post Overview Body"></textarea>
+ <h3 class="kbGen">Post Author</h3>
+<select class="inputNode value" id="postAuthor">
+     <option value="none" selected="true">None</option>
+     <option value="mmarquis" >Matt Marquis</option>
+ </select>
+<h3 class="kbGen">General KB Post Overview</h3>
+<input class="inputNode value" id="sectionNum" placeholder="How many sections?" type="number">
+<h3 class="kbGen">Code Level</h3>
+ <select class="inputNode value" id="codeLevel">
+     <option value="none" selected="true">None</option>
+     <option value="minstrel" >Minstrel</option>
+     <option value="knight" >Knight</option>
+     <option value="barbarian" >Barbarian</option>
+ </select>
+</div>
+<div id="resourcesBlock">
+<h3 class='firstHeader kbGen'>Resources Used</h3>
+ <div id="resourcesList">
+     <input id="indesignChk"class="inputNode checked" type="checkbox" name="indesign"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0006_Indesign-CC.png"/> Indesign<br/>
+     <input class="inputNode checked" id="illustratorChk" type="checkbox" name="illustrator"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0008_Illustrator-CC.png"/> Illustrator<br/>
+     <input class="inputNode checked" id="photoshopChk"type="checkbox" name="photoshop"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0007_Photoshop-CC.png"/> Photoshop<br/>
+     <input class="inputNode checked" id="mWordChk"type="checkbox" name="mWord"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0005_Word.png"/> Microsoft Word<br/>
+     <input class="inputNode checked" id="mExcelChk"type="checkbox" name="mExcel"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0003_Excel.png"/> Microsoft Excel<br/>
+     <input class="inputNode checked" id="mPPTChk"id="Chk"type="checkbox" name="mPPT"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0004_Powerpoint.png"/> Microsoft PPT<br/>
+     <input class="inputNode checked" id="mOutlookChk"type="checkbox" name="mOutlook"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0002_Outlook.png"/> Microsoft Outlook<br/>
+     <input class="inputNode checked" id="knowledgebaseChk"type="checkbox" name="knowledgebase"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0001_KB-Logo.png"/> Knowledgebase<br/>
+     <input class="inputNode checked" id="HTMLChk"type="checkbox" name="HTML"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0000_HTML-5-logo.png"/> HTML<br/>
+     <input class="inputNode checked" id="youTubeChk"type="checkbox" name="youtube"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0000_Youtube_logo.png"/> YouTube<br/>
+     <input class="inputNode checked" id="quicktimeChk"type="checkbox" name="quicktime"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0008_Quicktime.png"/> QuickTime<br/>
+     <input class="inputNode checked" id="finderChk"type="checkbox" name="finder"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/04/icon_KB_0001_ServerFinder.png"/> Finder<br/>
+     <input class="inputNode checked" id="jigChk"type="checkbox" name="jig"><img src="http://knowledgebases.wpengine.com/wp-content/uploads/2017/05/icon_KB_0000_Jig-logo.png"/> Jig<br/>
+ </div>
+ </div>
+ </div>
+ <h4 class="header">2. Callouts and Footer Nav</h4>
+ <div class="cardBG">
+ <h3 class="kbGen">Callout Options</h3>
+    <select id="calloutsDropdown">
+    <option value="none" selected="true">None</option>
+     <option value="galileo">Galileo</option>
+     <option value="einstein">Albert Einstein</option>
+     <option value="khan">Genghis Khan</option>
+     <option value="polo">Marco Polo</option>
+     <option value="darwin">Charles Darwin</option>
+     <option value="nostradamus">Nostradamus</option>
+     <option value="neptune">Neptune</option>
+     <option value="cleopatra">Cleopatra</option>
+     <option value="b-anthony">Susan B. Anthony</option>
+     <option value="parks">Rosa Parks</option>
+     <option value="fawcett">Millicent Fawcett</option>
+     <option value="curie">Marie Curie</option>
+     <option value="tubman">Harriet Tubman</option>
+     <option value="roosevelt">Eleanor Roosevelt</option>
+     <option value="angelou">Maya Angelou</option>
+     <option value="earhart">Amelia Earhart</option>
+     </select>
+ <textarea rows="1" cols="99" id="calloutHeader" placeholder="Callout Header"></textarea>
+ <textarea rows="4" cols="99" id="calloutBody" placeholder="Callout Body"></textarea>
+ <button id="addNewCallout">Add Callout</button>
+ <div id="addedCallouts"></div>
+
+ <h3 class="kbGen">Footer Nav Option</h3>
+ <select class="inputNode value" id="footerNavOptions">
+     <option value="standAlone" selected="true">Stand-Alone Post</option>
+     <option value="multiPostFirst">Multi-page Post (First Page)</option>
+     <option value="multiPostMid">Multi-page Post (Middle Page)</option>
+     <option value="multiPostLast">Multi-page Post (Last Page)</option>
+      <option value="coursePostFirst">Course Post (First Page)</option>
+     <option value="coursePostMid">Course Post (Middle Page)</option>
+     <option value="coursePostLast">Course Post (Last Page)</option>
+ </select>
+ <div id="URLInput">
+     <textarea class="hidden" id="nextURL" rows="1" cols="99" placeholder="Next Button URL"></textarea>
+     <textarea class="hidden" id="lastURL" rows="1" cols="99" placeholder="Last Button URL"></textarea>
+     <textarea class="hidden" id="courseHomeURL" rows="1" cols="99" placeholder="Course Home URL"></textarea>
+     
+ </div>
+    </div>
+    
+    <h4 class="header">3. Compile, Save, or Load Code</h4>
+<div class="cardBG">
+<div id="lastCodeBlocks"><div id="HTMLBlock">
+ <h3 class="kbGen">HMTL Code</h3>
+<textarea class="resultBlock" cols="99" rows="5" id="fullCodeBlock" placeholder="KB Post HTML will generate here"></textarea>
+<button class="btn" id="compileHTML">Get HTML Code</button>
+</div>
+
+<div id="saveBlock">
+<h3 class="kbGen">Save Settings</h3>
+<textarea class="resultBlock" cols="99" rows="5" id="saveCode" placeholder="Save the current settings with a save code"></textarea>
+<button class="btn" id="saveCurrentInput">Get Save Code</button>
+</div>
+
+<div id="loadBlock">
+<h3 class="kbGen">Load Settings</h3>
+<textarea class="resultBlock" cols="99" rows="5" id="previousSave" placeholder="Use a save code to load a previous settings state"></textarea>
+<button id="loadLastSave">Load Save Code</button>
+
+</div>
+    </div>
+   
+    </div> <button id="resetAll">Reset All</button>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
